@@ -1,0 +1,26 @@
+
+	
+
+		
+
+
+북한이 9일 오후 동해 방향으로 쏜 발사체는 탄도미사일이라고 미국 국방부가 발표했다.미 국방부는 9일(현지시간) 성명에서 북한이 목요일(9일) 이른 시간에 쏜 발사체는 여러(multiple) 발의 탄도미사일로 300㎞ 이상 비행했으며, 바다에 떨어졌다고 밝혔다고 로이터통신이 보도했다.앞서 합동참모본부는 “오늘 오후 4시 29분과 4시 49분경 평안북도 구성 지역에서 단거리 미사일로 추정되는 불상 발사체 각각 1발씩 2발을 동쪽으로 발사했다”며 “추정 비행거리는 420여㎞와 270여㎞”라고 밝혔다.노정연 기자 dana_fm@kyunghyang.com경향신문 [오늘의 인기뉴스]검찰, '윤석열 협박' 40대 유튜버 체포토트넘 극적인 역전승···손흥민, 챔피언스리그 결승무대 진출교통사고 전문 변호사가 본 ‘故 한지성 사건’[속보]북 '전략군 노동 미사일 기지’서 또 발사체 발사권은희 "조국, 제발 그 입 다무시고, 국회 논의 지켜봐달라"▶ 최신 뉴스 ▶ 경향신문 SNS [트위터] [페이스북]▶ 두고 두고 읽는 뉴스 ▶ 인기 무료만화ⓒ경향신문(www.khan.co.kr), 무단전재 및 재배포 금지
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

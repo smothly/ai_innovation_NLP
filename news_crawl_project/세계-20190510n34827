@@ -1,0 +1,28 @@
+
+	
+
+		
+
+
+겅솽 중국 외교부 대변인은 오늘(10일) 북한의 미사일 발사와 관련해 각 측이 대화로 문제를 해결한다는 정확한 방향을 견지할 것을 촉구했습니다.겅솽 대변인은 브리핑에서 중국은 아직 구체적인 정보가 없고 보도를 주시하고 있다면서 이같이 말했습니다. ▶ 대한민국 24시간 뉴스 채널 YTN 생방송보기  ▶ 네이버에서 YTN 뉴스 채널 구독하기 
+[YTN 화제의 뉴스]KTX에서 뛰어내린 여성, 수천만 원 배상 처지페이스북 공동창업자 "페북 해체 할 시점 됐다"멀쩡하던 차가 리콜 받고 고장?…제조사 '모르쇠'대담 진행한 기자 태도 논란에 문 대통령의 반응'KT 채용비리 수사' 담당 지검장 가족도 청탁했다
+[저작권자(c) YTN & YTN PLUS 무단전재 및 재배포 금지]
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

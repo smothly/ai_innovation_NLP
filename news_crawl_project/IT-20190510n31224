@@ -1,0 +1,28 @@
+
+	
+
+		
+
+
+LG전자가 LG페이에 NFC 결제 기능을 추가한다. 앞서 LG전자가 선언한 모바일 사후지원 서비스의 일환이다.LG전자 5G 스마트폰 V50씽큐를 비롯해 ▲G7씽큐 ▲G8씽큐 ▲V30씽큐 ▲V35씽큐 ▲V40씽큐 등 중·고급 스마트폰이 업데이트 대상이다. LG전자 X4와 X4플러스 등 중저가 스마트폰에도 적용된다.
+LG전자 V50씽큐. / LG전자 제공
+최신 제품인 LG전자 V50씽큐와 G8씽큐에서는 LG페이 NFC결제를 바로 사용할 수 있으나, 나머지 제품은 소프트웨어 업그레이드를 거쳐야 한다.지금까지 LG페이는 신용카드와 같은 마그네틱 보안전송만 지원했다. NFC는 마그네틱 보안전송과 달리 전원을 켜지 않은 상태에서 사용할 수 있어 편리하다.LG페이 NFC 결제를 지원하는 가맹점은 GS25와 GS슈퍼, 에버랜드와 캐리비안베이, 라이프스타일 스토어 랄라블라 등 5곳이다. LG전자측은 가맹점과 결제 범위를 점차 늘릴 예정이다.
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+
