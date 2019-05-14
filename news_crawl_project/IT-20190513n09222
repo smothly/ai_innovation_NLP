@@ -1,0 +1,39 @@
+
+	
+
+		
+
+
+(서울=연합뉴스) LG유플러스가 서울과 수도권 5G 네트워크 및 기업, 홈 서비스 네트워크에 통합 광선로감시시스템을 적용했다고 13일 밝혔다.  LG유플러스는 이를 통해 5G 고객들이 4G보다 안정적인 망에서 VR(증강현실)과 AR(가상현실) 등 5G 서비스를 끊김 없이 즐길 수 있게 됐다고 설명했다. 2019.5.13 [LG유플러스 제공] photo@yna.co.kr(끝)
+[이 시각 많이 본 기사]
+☞ 류현진, 7⅓이닝 노히트…아깝다 '인정 2루타'
+☞ '김정은 절친' 전 NBA 스타 로드먼, LA서 절도혐의
+☞ 세계최대 속옷 패션쇼 TV 중계 중단…의외의 이유
+☞ 경조사비가 세금 아닌데…"왜 월급서 맘대로 공제?"
+☞ '기생충'·'악인전' 칸 초청…역대 한국영화 칸 도전기
+☞ 찜질방서 자고났더니 게임아이템 400만원 결제?
+☞ '성모 발현 논란' 보스니아 메주고리예 인정되나
+☞ "비혼주의자라 결혼생각 없는데, 축의금 내야 하나요"
+☞ 與, 나경원 '달창' 발언 비판…"사리분별 못하거나 교활"
+☞ "아파트서만 운전" 거짓말 배우…'음주' 들통 벌금형 
+
+▶연합뉴스 앱 지금 바로 다운받기~
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

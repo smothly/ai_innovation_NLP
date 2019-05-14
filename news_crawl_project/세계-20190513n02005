@@ -1,0 +1,26 @@
+
+	
+
+		
+
+
+[서울신문]미국과 중국이 지난 9~10일 무역협상에서 합의에 이르지 못했다. 미국은 추가 관세를 예고해 난기류가 계속될 전망이다.[서울신문 다른기사 보러가기]☞ 부르키나파소 구출 한국민, 세금 지원 받아 귀국?☞ 애 낳자더니 바람난 남친…양육비도 못 받는 신세☞ ‘13명 사상’ 통도사 돌진 차량 블랙박스 영상보니☞ 병력 절반인데…日군사력, 왜 한국을 앞섰나☞ “빨갱이 XX, 여잔 남자 낳아야”…교수 해임취소 왜▶ 부담없이 즐기는 서울신문 ‘최신만화’- 저작권자 ⓒ 서울신문사 -
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

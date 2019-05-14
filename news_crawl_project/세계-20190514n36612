@@ -1,0 +1,28 @@
+
+	
+
+		
+
+
+미중 무역 갈등이 고조되면서 중국 위안화의 가치가 계속 떨어지고 있습니다.오늘 (14일) 역외시장에서 위안화 환율은 1달러에 6.9192위안까지 올라 지난해 12월 24일 이후 가장 높은 수준을 기록했습니다.중국 인민은행 고시 중간 환율도 전날보다 0.60%가 오른 6.8365 위안을 나타냈습니다.위안화 환율은 미중 무역 전쟁이 고조됐던 지난해 11월에 심리적 저지선인 1달러당 7위안 선에 근접한 적이 있으며, 최근 다시 역외시장에서 7위안 가까이 가고 있습니다. ▶ 대한민국 24시간 뉴스 채널 YTN 생방송보기  ▶ 네이버에서 YTN 뉴스 채널 구독하기  ▶ 레알마드리드 유소년 축구캠프 with YTN PLUS 
+[YTN 화제의 뉴스]"차마 입에 담기도…" 나경원 지역구에 걸린 현수막승리, '직접 성매매한 혐의 인정하나' 질문에…트럼프, 백악관에서 신동빈 면담 후 올린 글"위험 지역만" 피랍 구출 한국인의 미스터리헬기로 초등생 자녀 등교 시킨 아버지 '논란'
+[저작권자(c) YTN & YTN PLUS 무단전재 및 재배포 금지]
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

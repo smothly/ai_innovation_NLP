@@ -1,0 +1,28 @@
+
+
+
+
+【서울=뉴시스】
+
+
+
+【전주=뉴시스】윤난슬 기자 = 도서관 여자화장실에서 휴대전화 카메라로 불법 촬영을 한 10대 여학생이 경찰에 붙잡혔다.전북 전주 완산경찰서는 성폭력범죄 처벌 등에 관한 특례법 위반(카메라 등 이용 촬영) 혐의로 A(14)양을 불구속 입건했다고 29일 밝혔다.경찰에 따르면 전날 오후 8시 34분께 '전주 시내 한 도서관 화장실에 몰카범이 있다'는 신고가 접수됐다.이에 경찰은 인근 폐쇄회로(CC)TV와 목격자 탐문 조사 등을 벌여 A양을 특정, 검거했다.경찰 관계자는 "조만간 해당 학생을 불러 정확한 사건 경위를 조사할 예정"이라고 말했다.yns4656@newsis.com▶ 뉴시스 빅데이터 MSI 주가시세표 바로가기 ▶ 뉴시스 SNS [페이스북] [트위터]◇ 10대 의붓딸 살해·시신 유기 31세 男…계획범죄 무게◇ 다른 여자와의 관계 정리 못한 남성 살해한 60대◇ "내 밥 먹었어"…팔순 아버지 때린 조현병 아들 징역◇ 술에 취해 폭언하는 딸 살해한 50대 여성 징역 8년◇ 결혼 전제 여자친구에게 1억원 넘게 가로챈 40대
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

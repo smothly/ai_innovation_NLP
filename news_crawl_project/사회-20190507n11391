@@ -1,0 +1,28 @@
+
+
+
+'몰카' 등 불법 촬영 영상의 공유 사이트가 우후죽순 늘어나고 있는 것으로 알려졌다.
+서울신문은 3년 전 '소라넷' 사이트가 폐쇄됐지만 최근 유사한 사이트가 활개를 치고 있다고 보도했다. 매체는 해당 사이트들이 범죄 영상을 직접 게재하는 대신 영상이 있는 다른 홈페이지 주소를 알려주는 수법으로 단속을 피하고 있다고 지적했다.
+서울신문은 모사이트 운영자가 우회접속 방법 등을 매달 업데이트하고 있고, 경찰 수사망에 오른 영상과 미적발 영상도 알려주고 있는 실상을 전했다. 설상가상 경찰 단속 대응 요령도 함께 전하고 있다는 것이 매체의 설명이다.
+이러한 불법 사이트의 대부분은 서버가 해외에 위치해 있어 수사에 난관이 적지 않다. 관련해 경찰청 관계자는 서울신문과의 인터뷰에서 적극 수사하겠다고 밝혔다.
+김양균 기자 angel@kukinews.com
+
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+

@@ -1,0 +1,28 @@
+
+	
+
+		
+
+
+국내외적 불안 요소가 커지면서, 원·달러 환율이 10원 넘게 급등했습니다.원·달러 환율은 지난 10일 종가보다 10.5원이나 급등한 1달러에 1,188원을 기록했습니다.종가 기준으로 환율이 1,180원을 넘은 것은 지난 2017년 1월 16일 이후 처음으로, 장중 한때에는 1,188원까지 오르기도 했습니다.이는 국내 경제가 전반적으로 부진한 가운데, 미·중 무역 분쟁이 좀처럼 해결의 실마리를 찾지 못하며 달러 강세를 점치는 심리가 많기 때문으로 분석됩니다.조태현 [choth@ytn.co.kr] ▶ 대한민국 24시간 뉴스 채널 YTN 생방송보기  ▶ 네이버에서 YTN 뉴스 채널 구독하기 
+[YTN 화제의 뉴스][단독] "성폭행 당한 X"…인권 변호사의 두 얼굴나경원보다 먼저 '달창' 발언했던 전여옥 전 의원문 대통령 취임 2주년 기념 현수막 불타…방화 추정강성훈, 후배 아이돌 '얼평' 논란 "진짜 못생겼다"바퀴 없이 '동체 착륙'…대형참사 막은 기장의 선택
+[저작권자(c) YTN & YTN PLUS 무단전재 및 재배포 금지]
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+
