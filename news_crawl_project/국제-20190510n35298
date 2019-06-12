@@ -1,0 +1,28 @@
+
+	
+
+		
+
+
+중국이 미국의 관세 인상에 맞서 보복 조치를 예고한 가운데 아직 협상이 진행 중인 상황을 감안해 신중한 태도를 보이고 있습니다.겅솽 중국 외교부 대변인은 정례 브리핑에서 미국에 대한 보복 조치를 묻는 질문에 대해 상무부에서 관련 발표를 했다면서 구체적 내용에 대해서는 계속 주시해달라고 말했습니다.앞서 중국 관영 매체와 관변학자들은 미국산 농축산물의 수입 중단과 미국산 수입품에 대한 25% 관세 부과 등의 보복 조치를 제안했습니다.이 밖에도 미국 국채의 대량 매각과 미국산 제품 불매운동, 미국 관광 제한 등의 방안이 중국 내에서 거론되고 있습니다. ▶ 대한민국 24시간 뉴스 채널 YTN 생방송보기  ▶ 네이버에서 YTN 뉴스 채널 구독하기 
+[YTN 화제의 뉴스]KTX에서 뛰어내린 여성, 수천만 원 배상 처지페이스북 공동창업자 "페북 해체 할 시점 됐다"멀쩡하던 차가 리콜 받고 고장?…제조사 '모르쇠'대담 진행한 기자 태도 논란에 문 대통령의 반응'KT 채용비리 수사' 담당 지검장 가족도 청탁했다
+[저작권자(c) YTN & YTN PLUS 무단전재 및 재배포 금지]
+/* iframe resize for nate news */
+(function($){
+    $(document).ready(function(){
+	setYoutube();
+    });
+    
+    function setYoutube(){
+	var frmTarget = $('.frameMV');
+
+	frmTarget.find('iframe, object').each(function(){
+		$(this).css({'height': parseInt($(this).width() / 1.8)});
+		$(this).parent().css({
+			'height': parseInt($(this).width() / 1.8)
+		});
+	});
+
+    }
+}(jQuery));
+
